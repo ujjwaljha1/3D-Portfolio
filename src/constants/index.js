@@ -7,22 +7,25 @@ import {
     typescript,
     html,
     css,
+    spotify,
     reactjs,
     redux,
     tailwind,
+    gfg,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
     meta,
-    starbucks,
     tesla,
+    cour,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    starbucks,
   } from "../assets";
   
   export const navLinks = [
@@ -116,55 +119,56 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Algorithms",
+      company_name: "coursera::Stanford University",
+      icon: cour,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2023 - Jun 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned to design, analyze, and optimize algorithms for various computational problems.",
+        "Studied algorithm complexity, ensuring efficient solutions to complex data challenges.",
+        "Mastered graph algorithms, including shortest paths, spanning trees, and network flows.",
+        "Applied divide and conquer techniques to solve recursive and dynamic programming problems.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Data Science: Foundations using R",
+      company_name: "coursera::Johns Hopkins University",
+      icon: cour,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2024 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gain a comprehensive understanding of basic data science principles, including data manipulation, visualization, and statistical analysis using R.",
+        "Develop skills in R programming to efficiently clean, analyze, and visualize data.",
+        "Conduct statistical inference, applying methods to test hypotheses and derive data insights",
+        "Gain hands-on experience with real-world projects involving data collection, cleaning, analysis, and visualization.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Complete Machine Learning & Data Science Program",
+      company_name: "GeeksForGeeks",
+      icon: gfg,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "April 2024 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned and implemented machine learning algorithms, including regression, classification, and clustering.",
+        "Gained expertise in data preprocessing, feature engineering, and model optimization.",
+        "Worked on practical projects applying machine learning techniques to real-world problems.",
+        "Work on practical projects that apply machine learning techniques to real-world problems, enhancing hands-on experience and portfolio.",
+      ],
+    },
+    
+    {
+      title: "Full Stack Development with React & Node JS",
+      company_name: "GeeksForGeeks",
+      icon: gfg,
+      iconBg: "#E6DEDD",
+      date: "April 2024 - July 2024",
+      points: [
+        "Developed and maintained web applications using React.js and Node.js.",
+        "Collaborated with cross-functional teams to create high-quality products",
+        "Implemented responsive design and ensured cross-browser compatibility.",
+        "Participated in code reviews, providing constructive feedback.",
       ],
     },
   ];
@@ -198,58 +202,54 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Spotify Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Spotify clone app built with React and Node.js, featuring music streaming, playlists, user authentication, and responsive design.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "NodeJs",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: spotify,
+      source_code_link: "https://github.com/ujjwaljha1/Spotify-Clone",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Job IT",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "restapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "Trip Guide",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MongoDb",
           color: "green-text-gradient",
         },
         {

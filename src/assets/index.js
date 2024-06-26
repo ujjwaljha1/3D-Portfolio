@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cour from "./company/cour.png"
+import gfg from "./company/gfg.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import spotify from "./spotify.png";
 
 export {
   logo,
@@ -38,6 +41,8 @@ export {
   web,
   github,
   menu,
+  cour,
+  gfg,
   close,
   css,
   docker,
@@ -47,6 +52,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  spotify,
   reactjs,
   redux,
   tailwind,
