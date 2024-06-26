@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mern Devloper",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Scientist",
       icon: creator,
     },
   ];
